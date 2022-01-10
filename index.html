@@ -1,0 +1,47 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+       
+        <title> Family Book</title>
+        
+    </head>
+    <body>
+        <center>
+        <h1 id="hha"> Family Book</h1>
+      
+        <img id="i1" width="500"; src="61zTGIEvQoL.jpg">
+      <button onclick="update()"><i>Next</i> </button>
+        </center>
+
+        <script>
+           var names[
+               "My Father (Akhilesh kumar)",
+               "My Mother (Sunita agarwal)",
+               "My Brother (Akshaj singhal)",
+               "Me (Harshit singhal)"
+           ]; 
+
+           var images[
+               "papa.jpg",
+               "mummy.jpeg",
+               "bhaiya.jpeg",
+               "harshit.jpeg"
+           ];
+        
+ var i=0   
+ function family(){
+
+document.getElementById(hha).innerHTML = names[i];
+document.getElementById(i1).src=images[i];
+i++;
+if(i==4){
+i=0;
+}}    
+        
+        
+        </script>
+
+
+    </body>
+</html>
